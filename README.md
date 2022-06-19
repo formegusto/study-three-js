@@ -1,6 +1,6 @@
 # Fundamentals
 
-![three js structure](Fundamentals%207c759dddf09147ee8466241877cae925/Untitled.svg)
+<img width="795" alt="" src="https://user-images.githubusercontent.com/52296323/174477533-954d9156-130d-4ff8-bf03-cf5bd137dc7c.png">
 
 three js structure
 
@@ -47,7 +47,7 @@ const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
 camera.position.z = 2;
 ```
 
-![Untitled](Fundamentals%207c759dddf09147ee8466241877cae925/Untitled%201.svg)
+<img width="812" alt="" src="https://user-images.githubusercontent.com/52296323/174477549-816d3907-d001-4371-a4b1-4df08e30409e.png">
 
 - fov (field of view) : 원근 카메라 각도를 이용한다. 수직치수가 현재 75도로 설정되어 있다.
 - aspect : 캔버스의 표시 측면, 기본적으로 캔버스 태그는 300x150 픽셀이므로 화면비를 300/150 또는 2로 만든다.
@@ -55,7 +55,7 @@ camera.position.z = 2;
 
 → 이 모든 설정은 절두체 (frustum)를 정의한다. 절두체는 끝이 잘린 피라미드와 같은 3d 모양의 이름이다.
 
-![Untitled](Fundamentals%207c759dddf09147ee8466241877cae925/Untitled%202.svg)
+<img width="830" alt="" src="https://user-images.githubusercontent.com/52296323/174477563-ed720a86-e048-4170-bcce-9bbea917ebe0.png">
 
 - 카메라는 기본적으로 +Y를 위로 올려 -Z 축을 아래로 바라보도록 설정된다. 우리는 큐브를 원점에 놓는 것이 목표이므로 카메라를 원점에서 약간 뒤로 움직여야 볼 수 있다.
 
