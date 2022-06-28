@@ -1,7 +1,8 @@
-import Fundamentals from "./docs/Fundamentals";
+// import Fundamentals from "./docs/Fundamentals";
+import Primitives from "./docs/Primitives";
 
 function App() {
-  return <Fundamentals />;
+  return <Primitives />;
 }
 
 export default App;
